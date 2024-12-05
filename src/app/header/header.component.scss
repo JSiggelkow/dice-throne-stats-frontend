@@ -1,0 +1,22 @@
+#header-bg {
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 256px;
+  width: 100%;
+
+  background-image: url("../../../public/img/header-bg-new-no-shadow.png");
+  background-size: 2560px 256px;
+  background-position: center top;
+  pointer-events: none;
+}
+
+#logo {
+  position: absolute;
+  left: 50%;
+  bottom: 48px;
+  margin-left: -110px;
+  width: 205px;
+}
